@@ -45,13 +45,6 @@ Get a free key at [console.groq.com/keys](https://console.groq.com/keys), then r
 streamlit run app.py
 ```
 
-## Deploy on Streamlit Community Cloud
-
-1. Push this repo to GitHub (`.env` is ignored, never push your keys).
-2. Go to [share.streamlit.io](https://share.streamlit.io) → **New app** → pick the repo and `app.py`.
-3. Open **Advanced settings → Secrets** and add:
-
-```toml
 GROQ_API_KEY = "your_groq_key"
 ```
 
